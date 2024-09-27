@@ -1,16 +1,15 @@
 //problem-link: https://www.hackerrank.com/challenges/playing-with-characters/problem?isFullScreen=true
 
 #include<stdio.h>
-#include<string.h>
 
 int main()
 {
-    char ch, str;
-    char sen[1000];
+    char ch;
+    char str[100], sen[1000];
 
     scanf("%c", ch);
     scanf("%s", str);
-    scanf("%[^\n]%*c", sen);
+    scanf("%[^\n]s", sen);
 
     printf("%c\n", ch);
     printf("%s\n", str);
